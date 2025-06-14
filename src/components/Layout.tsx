@@ -26,7 +26,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </nav>
 
       {/* Right Sticky Green Bar */}
-      <div className="fixed right-[60px] top-0 h-full w-6 bg-green-600 z-50"></div>
+      <div className="fixed right-[60px] top-0 h-full w-3 bg-emerald-800 z-50"></div>
 
       {/* Main Content Area */}
       <main className="ml-16 mr-[90px]">
