@@ -17,10 +17,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           
           {/* Navigation Items */}
           <div className="flex flex-col space-y-4">
-            <div className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></div>
-            <div className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></div>
-            <div className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></div>
-            <div className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></div>
+            <a href="#home" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
+            <a href="#schedule" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
+            <a href="#travel" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
+            <a href="#things-to-do" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
+            <a href="#rsvp" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
           </div>
         </div>
       </nav>

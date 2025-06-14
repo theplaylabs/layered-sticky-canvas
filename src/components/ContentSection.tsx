@@ -7,6 +7,7 @@ interface ContentSectionProps {
   backgroundColor?: string;
   className?: string;
   minHeight?: string;
+  id?: string;
 }
 
 const ContentSection: React.FC<ContentSectionProps> = ({
@@ -14,7 +15,8 @@ const ContentSection: React.FC<ContentSectionProps> = ({
   backgroundImage,
   backgroundColor,
   className,
-  minHeight = "100vh"
+  minHeight = "100vh",
+  id
 }) => {
   const backgroundStyle = backgroundImage 
     ? { 
@@ -29,6 +31,7 @@ const ContentSection: React.FC<ContentSectionProps> = ({
 
   return (
     <section 
+      id={id}
       className={cn(
         "relative w-full flex items-center justify-center",
         className
