@@ -48,7 +48,7 @@ const Index = () => {
               </h2>
             </div>
             
-            <div className="text-right relative z-10">
+            <div className="text-right relative z-10" style={{ marginRight: '55px' }}>
               <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
                 Join us in celebration
               </p>
@@ -309,15 +309,30 @@ const Index = () => {
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
                     <div className="space-y-4">
-                      <img 
-                        src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=300&fit=crop" 
-                        alt="The Brick Hotel lobby" 
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
+                      <div className="grid grid-cols-3 gap-3">
+                        <img 
+                          src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=200&h=150&fit=crop" 
+                          alt="The Brick Hotel lobby" 
+                          className="w-full h-24 object-cover"
+                        />
+                        <img 
+                          src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=200&h=150&fit=crop" 
+                          alt="The Brick Hotel room" 
+                          className="w-full h-24 object-cover"
+                        />
+                        <img 
+                          src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=200&h=150&fit=crop" 
+                          alt="The Brick Hotel rooftop" 
+                          className="w-full h-24 object-cover"
+                        />
+                      </div>
                       <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                         A sophisticated luxury hotel in the heart of Roma Norte, walking distance to trendy restaurants and cafes. 
                         Features beautiful design, rooftop terrace, and excellent service. Perfect location for our wedding festivities.
                       </p>
+                      <a href="https://www.thebrickhotel.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: '#738a6e' }}>
+                        Visit The Brick Hotel website
+                      </a>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
@@ -332,15 +347,30 @@ const Index = () => {
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
                     <div className="space-y-4">
-                      <img 
-                        src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=300&fit=crop" 
-                        alt="Casa Goliana boutique hotel room" 
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
+                      <div className="grid grid-cols-3 gap-3">
+                        <img 
+                          src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=200&h=150&fit=crop" 
+                          alt="Casa Goliana courtyard" 
+                          className="w-full h-24 object-cover"
+                        />
+                        <img 
+                          src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=200&h=150&fit=crop" 
+                          alt="Casa Goliana boutique room" 
+                          className="w-full h-24 object-cover"
+                        />
+                        <img 
+                          src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=200&h=150&fit=crop" 
+                          alt="Casa Goliana colonial architecture" 
+                          className="w-full h-24 object-cover"
+                        />
+                      </div>
                       <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                         A charming boutique hotel in a beautifully restored colonial mansion in Roma Norte. 
                         Features unique rooms, courtyard garden, and personalized service. Walking distance to local attractions and nightlife.
                       </p>
+                      <a href="https://www.casagoliana.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: '#738a6e' }}>
+                        Visit Casa Goliana website
+                      </a>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
@@ -355,15 +385,30 @@ const Index = () => {
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
                     <div className="space-y-4">
-                      <img 
-                        src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=300&fit=crop" 
-                        alt="Hotel Villa Condesa modern room" 
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
+                      <div className="grid grid-cols-3 gap-3">
+                        <img 
+                          src="https://images.unsplash.com/photo-1568495248636-6432b97bd949?w=200&h=150&fit=crop" 
+                          alt="Hotel Villa Condesa lobby" 
+                          className="w-full h-24 object-cover"
+                        />
+                        <img 
+                          src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=200&h=150&fit=crop" 
+                          alt="Hotel Villa Condesa modern room" 
+                          className="w-full h-24 object-cover"
+                        />
+                        <img 
+                          src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&h=150&fit=crop" 
+                          alt="Hotel Villa Condesa amenities" 
+                          className="w-full h-24 object-cover"
+                        />
+                      </div>
                       <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                         A comfortable mid-range hotel in trendy Condesa neighborhood, just steps from Roma Norte. 
                         Offers clean, modern rooms with good amenities. Great value and easy access to wedding venues via Uber.
                       </p>
+                      <a href="https://www.hotelvillacondesa.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: '#738a6e' }}>
+                        Visit Hotel Villa Condesa website
+                      </a>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
@@ -390,14 +435,31 @@ const Index = () => {
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
                 Restaurants
               </h3>
-              <img 
-                src="https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?w=600&h=300&fit=crop" 
-                alt="Mexico City restaurant scene" 
-                className="w-full h-48 object-cover rounded-lg"
-              />
+              <div className="grid grid-cols-3 gap-3">
+                <img 
+                  src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&h=150&fit=crop" 
+                  alt="Fine dining restaurant" 
+                  className="w-full h-32 object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=200&h=150&fit=crop" 
+                  alt="Mexican street food" 
+                  className="w-full h-32 object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=200&h=150&fit=crop" 
+                  alt="Casual dining Mexico City" 
+                  className="w-full h-32 object-cover"
+                />
+              </div>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                Mexico City offers incredible culinary experiences from street food to Michelin-starred restaurants. 
-                Don't miss tacos al pastor, mole, and fresh ceviche. Popular areas for dining include Polanco, Roma Norte, and Centro Histórico.
+                Mexico City offers incredible culinary experiences from street food to Michelin-starred restaurants.
+                <br /><br />
+                <strong>Fine Dining:</strong> <a href="https://www.pujol.com.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Pujol</a> (Michelin starred), <a href="https://www.quintonil.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Quintonil</a>, <a href="https://www.sud777.com.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Sud777</a>
+                <br /><br />
+                <strong>Casual & Local:</strong> <a href="https://contramar.com.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Contramar</a> (seafood), <a href="https://www.rosettarestaurante.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Rosetta</a> (Italian-Mexican), El Cardenal (traditional Mexican breakfast)
+                <br /><br />
+                <strong>Street Food:</strong> Mercado San Juan, Tacos El Güero (tacos al pastor), Esquina Común (modern Mexican)
               </p>
             </div>
 
@@ -406,14 +468,31 @@ const Index = () => {
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
                 Museums & Sightseeing
               </h3>
-              <img 
-                src="https://images.unsplash.com/photo-1466442929976-97f336a657be?w=600&h=300&fit=crop" 
-                alt="Mexico City museums and architecture" 
-                className="w-full h-48 object-cover rounded-lg"
-              />
+              <div className="grid grid-cols-3 gap-3">
+                <img 
+                  src="https://images.unsplash.com/photo-1555880522-a4f6c3002044?w=200&h=150&fit=crop" 
+                  alt="Museum of Anthropology" 
+                  className="w-full h-32 object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=200&h=150&fit=crop" 
+                  alt="Frida Kahlo Museum" 
+                  className="w-full h-32 object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=200&h=150&fit=crop" 
+                  alt="Historic architecture Mexico City" 
+                  className="w-full h-32 object-cover"
+                />
+              </div>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                Explore the National Museum of Anthropology, Frida Kahlo Museum, Templo Mayor, and the stunning Palacio de Bellas Artes. 
-                Take a stroll through Chapultepec Park and visit the historic neighborhoods of Coyoacán and San Ángel.
+                Discover Mexico City's rich cultural heritage through world-class museums and historic sites.
+                <br /><br />
+                <strong>Must-Visit Museums:</strong> <a href="https://www.mna.inah.gob.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>National Museum of Anthropology</a>, <a href="https://www.museofridakahlo.org.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Frida Kahlo Museum</a>, <a href="https://www.palacio.bellas.artes.gob.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Palacio de Bellas Artes</a>
+                <br /><br />
+                <strong>Historic Sites:</strong> <a href="https://www.templomayor.inah.gob.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Templo Mayor</a>, Zócalo (Main Square), Metropolitan Cathedral
+                <br /><br />
+                <strong>Neighborhoods:</strong> Coyoacán (Frida Kahlo's neighborhood), San Ángel (colonial charm), Roma Norte (trendy area where you'll be staying)
               </p>
             </div>
 
@@ -422,11 +501,23 @@ const Index = () => {
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
                 Join Our Optional Tours
               </h3>
-              <img 
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&h=300&fit=crop" 
-                alt="Mexico City scenic views and tours" 
-                className="w-full h-48 object-cover rounded-lg"
-              />
+              <div className="grid grid-cols-3 gap-3">
+                <img 
+                  src="https://images.unsplash.com/photo-1571163294945-0d60c8d9c41d?w=200&h=150&fit=crop" 
+                  alt="Mexico City walking tour" 
+                  className="w-full h-32 object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=200&h=150&fit=crop" 
+                  alt="Street food tour Mexico City" 
+                  className="w-full h-32 object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=200&h=150&fit=crop" 
+                  alt="Museum tour group" 
+                  className="w-full h-32 object-cover"
+                />
+              </div>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 We've organized optional group activities during the wedding weekend! Check our itinerary section above for:
                 <br />• Mexico City Walking Tour (Thursday)

@@ -20,7 +20,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <a href="#travel" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             Travel & Accommodations
           </a>
-          <a href="#things-to-do" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+          <a href="#things-to-do" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase whitespace-nowrap">
             Things to Do
           </a>
           <a href="#rsvp" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
