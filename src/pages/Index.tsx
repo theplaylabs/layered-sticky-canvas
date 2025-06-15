@@ -31,31 +31,32 @@ const Index = () => {
         backgroundColor="hsl(var(--background))"
         className="min-h-screen"
       >
-        <div className="text-right md:text-right text-center space-y-6">
+        {/* Mobile Layout */}
+        <div className="md:hidden text-center space-y-6">
           <div className="space-y-2 relative">
-            {/* Large green ampersand background */}
-            <div className="absolute inset-0 flex items-center justify-center md:justify-end -mt-8 md:-mt-16">
-              <span className="text-[6rem] md:text-[11.34rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
+            {/* Large green ampersand background for mobile */}
+            <div className="absolute inset-0 flex items-center justify-center -mt-8">
+              <span className="text-[6rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
             </div>
             
-            {/* Names layered on top */}
-            <div className="relative z-10" style={{ marginRight: '0px' }}>
-              <h1 className="text-5xl md:text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+            {/* Names layered on top for mobile */}
+            <div className="relative z-10">
+              <h1 className="text-5xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 MATT
               </h1>
-              <h2 className="text-5xl md:text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+              <h2 className="text-5xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 CARLA
               </h2>
             </div>
             
-            <div className="text-center md:text-right relative z-10" style={{ marginRight: '0px' }}>
-              <p className="text-xs md:text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
+            <div className="text-center relative z-10">
+              <p className="text-xs font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
                 Join us in celebration
               </p>
             </div>
           </div>
           
-          <div className="max-w-md mx-auto md:ml-auto space-y-4 pt-8">
+          <div className="max-w-md mx-auto space-y-4 pt-8">
             <h3 className="text-lg font-primary font-medium" style={{ color: '#738a6e' }}>
               Save the Date - September 26, 2026
             </h3>
@@ -66,7 +67,50 @@ const Index = () => {
           </div>
           
           {/* Scroll indicator */}
-          <div className="pt-16 flex justify-center md:justify-end">
+          <div className="pt-16 flex justify-center">
+            <div className="w-8 h-8 border border-muted-foreground rounded-full flex items-center justify-center animate-pulse">
+              <div className="w-1 h-3 bg-muted-foreground"></div>
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop Layout - Original Design */}
+        <div className="hidden md:block text-right space-y-6">
+          <div className="space-y-2 relative">
+            {/* Large green ampersand background */}
+            <div className="absolute inset-0 flex items-center justify-end" style={{ marginTop: '-60px' }}>
+              <span className="text-[11.34rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
+            </div>
+            
+            {/* Names layered on top */}
+            <div className="relative z-10" style={{ marginRight: '55px' }}>
+              <h1 className="text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+                MATT
+              </h1>
+              <h2 className="text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+                CARLA
+              </h2>
+            </div>
+            
+            <div className="text-right relative z-10" style={{ marginRight: '55px' }}>
+              <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
+                Join us in celebration
+              </p>
+            </div>
+          </div>
+          
+          <div className="max-w-md ml-auto space-y-4 pt-8">
+            <h3 className="text-lg font-primary font-medium" style={{ color: '#738a6e' }}>
+              Save the Date - September 26, 2026
+            </h3>
+            <p className="text-sm font-primary font-light text-muted-foreground leading-relaxed">
+              We're excited to share our special day with you. Please join us for our 
+              wedding celebration and all the festivities that surround it.
+            </p>
+          </div>
+          
+          {/* Scroll indicator */}
+          <div className="pt-16 flex justify-end">
             <div className="w-8 h-8 border border-muted-foreground rounded-full flex items-center justify-center animate-pulse">
               <div className="w-1 h-3 bg-muted-foreground"></div>
             </div>
