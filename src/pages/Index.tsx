@@ -35,7 +35,7 @@ const Index = () => {
         <div className="md:hidden text-center space-y-6">
           <div className="space-y-2 relative">
             {/* Large green ampersand background for mobile */}
-            <div className="absolute inset-0 flex items-center justify-center -mt-8">
+            <div className="absolute inset-0 flex items-center justify-center -mt-12">
               <span className="text-[7rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
             </div>
             
