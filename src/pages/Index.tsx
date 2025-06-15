@@ -48,7 +48,7 @@ const Index = () => {
               </h2>
             </div>
             
-            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4 relative z-10">
+            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4 relative z-10 text-right">
               Join us in celebration
             </p>
           </div>
@@ -235,12 +235,20 @@ const Index = () => {
             {/* Getting to Mexico City */}
             <div className="space-y-4">
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
-                Flying to Mexico City from Canada
+                Flying to Mexico City from Calgary
               </h3>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                Mexico City International Airport (MEX) has direct flights from Toronto (YYZ) and Vancouver (YVR). 
-                Flight time is approximately 6-7 hours. We recommend booking flights well in advance for better rates. 
-                Major airlines serving this route include Air Canada, Aeromexico, and Interjet.
+                Mexico City International Airport (MEX) requires connecting flights from Calgary (YYC). Popular routing options include:
+                <br /><br />
+                <strong>Via Vancouver:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Air Canada</a> - YYC to YVR to MEX (7-9 hours total)
+                <br />
+                <strong>Via Toronto:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Air Canada</a> - YYC to YYZ to MEX (8-10 hours total)
+                <br />
+                <strong>Via Phoenix:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American Airlines</a> - YYC to PHX to MEX (7-9 hours total)
+                <br />
+                <strong>Via Dallas:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American Airlines</a> - YYC to DFW to MEX (8-10 hours total)
+                <br /><br />
+                We recommend booking flights well in advance for better rates. Consider arriving Thursday if joining optional tours.
               </p>
             </div>
 
@@ -250,10 +258,16 @@ const Index = () => {
                 Airport to Hotel Transportation
               </h3>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                <strong>Uber/Taxi:</strong> The most convenient option. Uber is widely available and costs approximately $8-15 USD depending on your destination. 
-                Official airport taxis are also available at fixed rates.
+                <strong>Uber (Recommended):</strong> The most convenient and safe option. Download the Uber app before arrival. 
+                Costs approximately $8-15 USD to Roma Norte area. Pick-up area is on the Departures level (3rd floor). 
+                Always verify the license plate matches your app before getting in.
                 <br /><br />
-                <strong>Metro:</strong> An economical option at about $0.25 USD, but not recommended with heavy luggage.
+                <strong>How to get Uber from MEX Airport:</strong>
+                <br />1. After collecting baggage, take escalator to Departures level (Terminal 1: Level 3, Terminal 2: Level 2)
+                <br />2. Open Uber app and request ride
+                <br />3. Follow app directions to designated pickup zone
+                <br />4. Wait for your driver and verify license plate
+                <br />5. Journey to Roma Norte takes 30-45 minutes depending on traffic
               </p>
             </div>
 
@@ -263,11 +277,14 @@ const Index = () => {
                 Getting Around Mexico City
               </h3>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                <strong>Uber:</strong> The most reliable and safe option for tourists. Always verify the license plate and driver details.
+                <strong>Uber (Recommended):</strong> The most reliable and safe option for tourists. Always verify the license plate and driver details before entering. 
+                Most rides within the city cost $3-8 USD. UberX is the most common option.
                 <br /><br />
-                <strong>Metro:</strong> Extensive and inexpensive, but can be crowded. Avoid during rush hours (7-9 AM, 6-8 PM).
+                <strong>Metro:</strong> Extensive and inexpensive at about $0.25 USD, but can be very crowded. Avoid during rush hours (7-9 AM, 6-8 PM). 
+                Generally safe but not ideal for tourists with luggage or valuables.
                 <br /><br />
-                <strong>Walking:</strong> Many attractions in Centro Histórico are walkable, but stay aware of your surroundings.
+                <strong>Walking:</strong> Roma Norte and Centro Histórico are very walkable neighborhoods. Stay aware of your surroundings, 
+                especially at night. Our wedding venues are easily accessible by Uber from Roma Norte hotels.
               </p>
             </div>
 
@@ -281,15 +298,15 @@ const Index = () => {
                 <AccordionItem value="hotel-luxury" className="border-none">
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
-                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Four Seasons Hotel Mexico City</h4>
-                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Luxury • Paseo de la Reforma</p>
-                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$300-500 USD/night</p>
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>The Brick Hotel</h4>
+                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Luxury • Roma Norte</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$250-400 USD/night</p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
                     <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                      Located in the heart of Polanco, this luxury hotel offers exceptional service, beautiful rooms, and is close to many of our wedding events. 
-                      Features include a spa, fitness center, and excellent restaurants.
+                      A sophisticated luxury hotel in the heart of Roma Norte, walking distance to trendy restaurants and cafes. 
+                      Features beautiful design, rooftop terrace, and excellent service. Perfect location for our wedding festivities.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -297,15 +314,15 @@ const Index = () => {
                 <AccordionItem value="hotel-boutique" className="border-none">
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
-                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Hotel Downtown Mexico</h4>
-                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Boutique • Centro Histórico</p>
-                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$150-250 USD/night</p>
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Casa Goliana</h4>
+                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Boutique • Roma Norte</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$120-200 USD/night</p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
                     <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                      A stylish boutique hotel in the historic center, perfect for exploring the city's cultural attractions. 
-                      Walking distance to many wedding venues and featuring modern amenities with colonial charm.
+                      A charming boutique hotel in a beautifully restored colonial mansion in Roma Norte. 
+                      Features unique rooms, courtyard garden, and personalized service. Walking distance to local attractions and nightlife.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -313,15 +330,15 @@ const Index = () => {
                 <AccordionItem value="hotel-budget" className="border-none">
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
-                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Hotel Majestic</h4>
-                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Mid-Range • Zócalo</p>
-                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$80-150 USD/night</p>
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Hotel Villa Condesa</h4>
+                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Mid-Range • Condesa (adjacent to Roma Norte)</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$80-140 USD/night</p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
                     <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                      A historic hotel overlooking the main square (Zócalo), offering great value and a central location. 
-                      Perfect for budget-conscious travelers who want to be in the heart of the action.
+                      A comfortable mid-range hotel in trendy Condesa neighborhood, just steps from Roma Norte. 
+                      Offers clean, modern rooms with good amenities. Great value and easy access to wedding venues via Uber.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -464,16 +481,6 @@ const Index = () => {
                   </Label>
                 </div>
 
-                <div className="flex items-center space-x-2">
-                  <Checkbox
-                    id="brunch"
-                    checked={formData.attendingFarewellBrunch}
-                    onCheckedChange={(checked) => setFormData({...formData, attendingFarewellBrunch: checked as boolean})}
-                  />
-                  <Label htmlFor="brunch" className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>
-                    Farewell Brunch (Sunday, September 27)
-                  </Label>
-                </div>
               </div>
 
               <Button 
