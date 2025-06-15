@@ -19,10 +19,10 @@ const Index = () => {
             
             {/* Names layered on top */}
             <div className="relative z-10" style={{ marginRight: '55px' }}>
-              <h1 className="text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.5]">
+              <h1 className="text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 MATT
               </h1>
-              <h2 className="text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.5]">
+              <h2 className="text-8xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 CARLA
               </h2>
             </div>
