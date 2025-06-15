@@ -5,9 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // ADD THIS 'base' PROPERTY
-  // It should match your GitHub repository name, prefixed with a slash.
-  base: "/layered-sticky-canvas/", // <--- ADD THIS LINE!
+  // Only use base path in production for GitHub Pages
+  base: mode === 'production' ? "/layered-sticky-canvas/" : "/",
 
   server: {
     host: "::",
