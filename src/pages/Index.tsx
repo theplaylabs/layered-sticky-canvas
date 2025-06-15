@@ -12,22 +12,22 @@ const Index = () => {
       >
         <div className="text-right space-y-6">
           <div className="space-y-2">
-            <h1 className="text-6xl font-light tracking-wide text-foreground">
+            <h1 className="text-6xl font-accent font-normal tracking-wider text-foreground">
               WEDDING
             </h1>
-            <h2 className="text-6xl font-light tracking-wide text-foreground">
+            <h2 className="text-6xl font-accent font-normal tracking-wider text-foreground">
               CELEBRATION
             </h2>
-            <p className="text-sm tracking-[0.3em] text-muted-foreground uppercase mt-4">
+            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
               Join us in celebration
             </p>
           </div>
           
           <div className="max-w-md ml-auto space-y-4 pt-8">
-            <h3 className="text-lg font-medium text-foreground">
+            <h3 className="text-lg font-primary font-medium text-foreground">
               Save the Date
             </h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm font-primary font-light text-muted-foreground leading-relaxed">
               We're excited to share our special day with you. Please join us for our 
               wedding celebration and all the festivities that surround it.
             </p>

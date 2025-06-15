@@ -19,11 +19,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'playfair': ['Playfair Display', 'serif'],
-				'cormorant': ['Cormorant Garamond', 'serif'],
-				'crimson': ['Crimson Text', 'serif'],
-				'lora': ['Lora', 'serif'],
-				'inter': ['Inter', 'sans-serif'],
+				'primary': ['Poppins', 'sans-serif'], // Modern, rounded, airy spacing
+				'secondary': ['Montserrat', 'sans-serif'], // Alternative modern sans
+				'accent': ['Libre Baskerville', 'serif'], // Elegant, classic serif
+				'script': ['Cormorant Garamond', 'serif'], // Fancy serif alternative
 			},
 			colors: {
 				border: 'hsl(var(--border))',

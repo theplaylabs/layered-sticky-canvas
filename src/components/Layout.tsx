@@ -11,19 +11,19 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <nav className="fixed left-0 top-0 h-full w-48 z-50 flex flex-col justify-start pt-16 px-8">
         <div className="flex flex-col space-y-8">
           {/* Navigation Items */}
-          <a href="#home" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+          <a href="#home" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             Home
           </a>
-          <a href="#schedule" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+          <a href="#schedule" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             Schedule
           </a>
-          <a href="#travel" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+          <a href="#travel" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             Travel & Accommodations
           </a>
-          <a href="#things-to-do" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+          <a href="#things-to-do" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             Things to Do
           </a>
-          <a href="#rsvp" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+          <a href="#rsvp" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             RSVP
           </a>
         </div>
