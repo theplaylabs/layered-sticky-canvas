@@ -18,7 +18,7 @@ const Index = () => {
             </div>
             
             {/* Names layered on top */}
-            <div className="relative z-10" style={{ marginRight: '70px' }}>
+            <div className="relative z-10" style={{ marginRight: '60px' }}>
               <h1 className="text-8xl font-secondary font-light tracking-wider text-foreground">
                 MATT
               </h1>
