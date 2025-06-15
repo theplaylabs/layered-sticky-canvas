@@ -13,7 +13,7 @@ const Index = () => {
         <div className="text-right space-y-6">
           <div className="space-y-2 relative">
             {/* Large green ampersand background */}
-            <div className="absolute inset-0 flex items-center justify-end" style={{ marginTop: '-40px' }}>
+            <div className="absolute inset-0 flex items-center justify-end" style={{ marginTop: '-60px' }}>
               <span className="text-[12rem] font-accent font-bold text-green-800/30 select-none">&</span>
             </div>
             
