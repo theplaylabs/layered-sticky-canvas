@@ -54,7 +54,7 @@ const Index = () => {
       {/* Schedule Section */}
       <ContentSection 
         id="schedule"
-        backgroundImage="/lovable-uploads/40dc9ee5-4626-481d-9a03-6d83ea3399f7.png"
+        backgroundColor="hsl(var(--muted))"
         className="min-h-screen"
       >
         <div className="text-left space-y-8">
