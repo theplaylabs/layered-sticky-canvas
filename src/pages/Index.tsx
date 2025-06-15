@@ -48,9 +48,11 @@ const Index = () => {
               </h2>
             </div>
             
-            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4 relative z-10 text-right">
-              Join us in celebration
-            </p>
+            <div className="text-right relative z-10">
+              <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
+                Join us in celebration
+              </p>
+            </div>
           </div>
           
           <div className="max-w-md ml-auto space-y-4 pt-8">
@@ -94,8 +96,8 @@ const Index = () => {
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Mexico City Walking Tour (Optional)</h4>
-                      <a href="https://maps.google.com/?q=Zocalo+Plaza+de+la+Constitucion+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#5a5a5a' }}>Zocalo (Plaza de la Constitución)</a>
-                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Plaza de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06010 Ciudad de México, CDMX, Mexico</p>
+                      <a href="https://maps.google.com/?q=Zocalo+Plaza+de+la+Constitucion+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Zocalo (Plaza de la Constitución)</a>
+                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Plaza de la Constitución S/N</p>
                       <p className="text-sm font-primary font-medium tracking-wider mt-1" style={{ color: '#738a6e' }}>9:00AM-11:00AM</p>
                       <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Comfortable walking shoes, casual attire</p>
                     </div>
@@ -111,8 +113,8 @@ const Index = () => {
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Street Food Tour (Optional)</h4>
-                      <a href="https://maps.google.com/?q=Mercado+San+Juan+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#5a5a5a' }}>Mercado San Juan</a>
-                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Ernesto Pugibet 21, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06010 Ciudad de México, CDMX, Mexico</p>
+                      <a href="https://maps.google.com/?q=Mercado+San+Juan+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Mercado San Juan</a>
+                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Ernesto Pugibet 21</p>
                       <p className="text-sm font-primary font-medium tracking-wider mt-1" style={{ color: '#738a6e' }}>1:00PM-4:00PM</p>
                       <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Casual, comfortable attire</p>
                     </div>
@@ -136,8 +138,8 @@ const Index = () => {
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Anthropology Museum Tour (Optional)</h4>
-                      <a href="https://maps.google.com/?q=Museo+Nacional+de+Antropologia+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#5a5a5a' }}>Museo Nacional de Antropología</a>
-                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Av. Paseo de la Reforma s/n, Polanco, Bosque de Chapultepec I Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX, Mexico</p>
+                      <a href="https://maps.google.com/?q=Museo+Nacional+de+Antropologia+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Museo Nacional de Antropología</a>
+                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Av. Paseo de la Reforma s/n</p>
                       <p className="text-sm font-primary font-medium tracking-wider mt-1" style={{ color: '#738a6e' }}>11:00AM-3:00PM</p>
                       <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Comfortable walking shoes, casual attire</p>
                     </div>
@@ -153,8 +155,8 @@ const Index = () => {
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Rehearsal Dinner</h4>
-                      <a href="https://maps.google.com/?q=Cancion+Cibeles+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#5a5a5a' }}>Cancion Cibeles</a>
-                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Plaza de Cibeles 10, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico</p>
+                      <a href="https://maps.google.com/?q=Cancion+Cibeles+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Cancion Cibeles</a>
+                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Plaza de Cibeles 10</p>
                       <p className="text-sm font-primary font-medium tracking-wider mt-1" style={{ color: '#738a6e' }}>7:00PM-10:00PM</p>
                       <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Smart casual, no shorts or flip-flops</p>
                     </div>
@@ -178,10 +180,10 @@ const Index = () => {
                   <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Wedding Ceremony & Reception</h4>
-                      <a href="https://maps.google.com/?q=Toledo+Rooftop+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#5a5a5a' }}>Toledo Rooftop</a>
-                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Isabel La Católica 30, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico</p>
+                      <a href="https://maps.google.com/?q=Toledo+Rooftop+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Toledo Rooftop</a>
+                      <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>Isabel La Católica 30</p>
                       <p className="text-sm font-primary font-medium tracking-wider mt-1" style={{ color: '#738a6e' }}>4:00PM-2:00AM</p>
-                      <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Cocktail attire, no children allowed</p>
+                      <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Cocktail attire, <a href="#faq" className="hover:underline" style={{ color: '#738a6e' }}>no children allowed</a></p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
@@ -240,13 +242,15 @@ const Index = () => {
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 Mexico City International Airport (MEX) requires connecting flights from Calgary (YYC). Popular routing options include:
                 <br /><br />
-                <strong>Via Vancouver:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Air Canada</a> - YYC to YVR to MEX (7-9 hours total)
+                <strong>Via Vancouver:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Air Canada</a> - YYC to YVR to MEX (7-9 hours total)
                 <br />
-                <strong>Via Toronto:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Air Canada</a> - YYC to YYZ to MEX (8-10 hours total)
+                <strong>Via Toronto:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Air Canada</a> - YYC to YYZ to MEX (8-10 hours total)
                 <br />
-                <strong>Via Phoenix:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American Airlines</a> - YYC to PHX to MEX (7-9 hours total)
+                <strong>Via Vancouver:</strong> <a href="https://www.westjet.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>WestJet</a> - YYC to YVR to MEX (7-9 hours total)
                 <br />
-                <strong>Via Dallas:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American Airlines</a> - YYC to DFW to MEX (8-10 hours total)
+                <strong>Via Phoenix:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>American Airlines</a> - YYC to PHX to MEX (7-9 hours total)
+                <br />
+                <strong>Via Dallas:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>American Airlines</a> - YYC to DFW to MEX (8-10 hours total)
                 <br /><br />
                 We recommend booking flights well in advance for better rates. Consider arriving Thursday if joining optional tours.
               </p>
@@ -304,10 +308,17 @@ const Index = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
-                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                      A sophisticated luxury hotel in the heart of Roma Norte, walking distance to trendy restaurants and cafes. 
-                      Features beautiful design, rooftop terrace, and excellent service. Perfect location for our wedding festivities.
-                    </p>
+                    <div className="space-y-4">
+                      <img 
+                        src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=300&fit=crop" 
+                        alt="The Brick Hotel lobby" 
+                        className="w-full h-32 object-cover rounded-lg"
+                      />
+                      <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                        A sophisticated luxury hotel in the heart of Roma Norte, walking distance to trendy restaurants and cafes. 
+                        Features beautiful design, rooftop terrace, and excellent service. Perfect location for our wedding festivities.
+                      </p>
+                    </div>
                   </AccordionContent>
                 </AccordionItem>
 
@@ -320,10 +331,17 @@ const Index = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
-                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                      A charming boutique hotel in a beautifully restored colonial mansion in Roma Norte. 
-                      Features unique rooms, courtyard garden, and personalized service. Walking distance to local attractions and nightlife.
-                    </p>
+                    <div className="space-y-4">
+                      <img 
+                        src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=300&fit=crop" 
+                        alt="Casa Goliana boutique hotel room" 
+                        className="w-full h-32 object-cover rounded-lg"
+                      />
+                      <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                        A charming boutique hotel in a beautifully restored colonial mansion in Roma Norte. 
+                        Features unique rooms, courtyard garden, and personalized service. Walking distance to local attractions and nightlife.
+                      </p>
+                    </div>
                   </AccordionContent>
                 </AccordionItem>
 
@@ -336,10 +354,17 @@ const Index = () => {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
-                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                      A comfortable mid-range hotel in trendy Condesa neighborhood, just steps from Roma Norte. 
-                      Offers clean, modern rooms with good amenities. Great value and easy access to wedding venues via Uber.
-                    </p>
+                    <div className="space-y-4">
+                      <img 
+                        src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=600&h=300&fit=crop" 
+                        alt="Hotel Villa Condesa modern room" 
+                        className="w-full h-32 object-cover rounded-lg"
+                      />
+                      <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                        A comfortable mid-range hotel in trendy Condesa neighborhood, just steps from Roma Norte. 
+                        Offers clean, modern rooms with good amenities. Great value and easy access to wedding venues via Uber.
+                      </p>
+                    </div>
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -365,6 +390,11 @@ const Index = () => {
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
                 Restaurants
               </h3>
+              <img 
+                src="https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?w=600&h=300&fit=crop" 
+                alt="Mexico City restaurant scene" 
+                className="w-full h-48 object-cover rounded-lg"
+              />
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 Mexico City offers incredible culinary experiences from street food to Michelin-starred restaurants. 
                 Don't miss tacos al pastor, mole, and fresh ceviche. Popular areas for dining include Polanco, Roma Norte, and Centro Histórico.
@@ -376,6 +406,11 @@ const Index = () => {
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
                 Museums & Sightseeing
               </h3>
+              <img 
+                src="https://images.unsplash.com/photo-1466442929976-97f336a657be?w=600&h=300&fit=crop" 
+                alt="Mexico City museums and architecture" 
+                className="w-full h-48 object-cover rounded-lg"
+              />
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 Explore the National Museum of Anthropology, Frida Kahlo Museum, Templo Mayor, and the stunning Palacio de Bellas Artes. 
                 Take a stroll through Chapultepec Park and visit the historic neighborhoods of Coyoacán and San Ángel.
@@ -387,6 +422,11 @@ const Index = () => {
               <h3 className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
                 Join Our Optional Tours
               </h3>
+              <img 
+                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=600&h=300&fit=crop" 
+                alt="Mexico City scenic views and tours" 
+                className="w-full h-48 object-cover rounded-lg"
+              />
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 We've organized optional group activities during the wedding weekend! Check our itinerary section above for:
                 <br />• Mexico City Walking Tour (Thursday)
@@ -419,7 +459,7 @@ const Index = () => {
             <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
               <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>
                 <strong>Important:</strong> Children are not allowed at the wedding ceremony and reception. 
-                For childcare information, please see our <a href="#faq" className="text-blue-600 hover:underline">FAQ section</a>.
+                For childcare information, please see our <a href="#faq" className="hover:underline" style={{ color: '#738a6e' }}>FAQ section</a>.
               </p>
             </div>
 
