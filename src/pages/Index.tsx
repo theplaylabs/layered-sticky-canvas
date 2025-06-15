@@ -14,7 +14,7 @@ const Index = () => {
           <div className="space-y-2 relative">
             {/* Large green ampersand background */}
             <div className="absolute inset-0 flex items-center justify-end" style={{ marginTop: '-60px' }}>
-              <span className="text-[11.34rem] font-accent font-bold text-green-800/30 select-none">&</span>
+              <span className="text-[11.34rem] font-accent font-bold select-none" style={{ color: '#a8b5a0' }}>&</span>
             </div>
             
             {/* Names layered on top */}
