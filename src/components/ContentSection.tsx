@@ -47,15 +47,7 @@ const ContentSection: React.FC<ContentSectionProps> = ({
       )}
       
       {/* Content Container */}
-      <div 
-        className="relative z-10 py-16"
-        style={{ 
-          marginLeft: '232px',  // nav width (192px) + gap (40px) - 10px more breathing room for nav
-          marginRight: '122px', // green bar area (72px) + gap (20px) + extra margin (30px) - 10px closer to green bar
-          paddingLeft: '16px',
-          paddingRight: '16px'
-        }}
-      >
+      <div className="relative z-10 py-16 px-4 md:px-16 md:ml-[232px] md:mr-[122px]">
         {children}
       </div>
     </section>
