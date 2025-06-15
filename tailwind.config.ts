@@ -21,7 +21,7 @@ export default {
 			fontFamily: {
 				'primary': ['Poppins', 'sans-serif'], // Modern, rounded, airy spacing
 				'secondary': ['Montserrat', 'sans-serif'], // Alternative modern sans
-				'accent': ['Libre Baskerville', 'serif'], // Elegant, classic serif
+				'accent': ['Abril Fatface', 'serif'], // Bold, dramatic serif
 				'script': ['Cormorant Garamond', 'serif'], // Fancy serif alternative
 			},
 			colors: {
