@@ -7,14 +7,6 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Only use base path in production for GitHub Pages
   base: mode === 'production' ? "/layered-sticky-canvas/" : "/",
-
-  server: {
-    host: "::",
-    port: 8080,
-    hmr: {
-      clientPort: 8080
-    }
-  },
   plugins: [
     react(),
     mode === 'development' &&
