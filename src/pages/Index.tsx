@@ -27,14 +27,14 @@ const Index = () => {
               </h2>
             </div>
             
-            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4 relative z-10">
+            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4 relative z-10" style={{ marginRight: '55px' }}>
               Join us in celebration
             </p>
           </div>
           
           <div className="max-w-md ml-auto space-y-4 pt-8">
-            <h3 className="text-lg font-primary font-medium text-foreground">
-              Save the Date
+            <h3 className="text-lg font-primary font-medium" style={{ color: '#738a6e' }}>
+              Save the Date - September 26, 2026
             </h3>
             <p className="text-sm font-primary font-light text-muted-foreground leading-relaxed">
               We're excited to share our special day with you. Please join us for our 
@@ -54,74 +54,74 @@ const Index = () => {
       {/* Schedule Section */}
       <ContentSection 
         id="schedule"
-        backgroundColor="hsl(var(--muted))"
+        backgroundColor="#ffffff"
         className="min-h-screen"
       >
         <div className="text-left space-y-8">
-          <h2 className="text-4xl font-primary font-light text-foreground">
+          <h2 className="text-4xl font-primary font-light" style={{ color: '#3a3a3a' }}>
             Itinerary
           </h2>
           
           <div className="space-y-8">
             {/* Thursday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
                 THURSDAY, SEPTEMBER 24
               </h3>
               <div className="space-y-3">
                 <div>
-                  <h4 className="font-primary font-medium text-foreground">Mexico City Walking Tour (Optional)</h4>
-                  <p className="text-sm font-primary font-light text-foreground/80">Zocalo (Plaza de la Constitución)</p>
-                  <p className="text-sm font-primary font-light text-foreground/70">9:00am-11:00am</p>
+                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Mexico City Walking Tour (Optional)</h4>
+                  <a href="https://maps.google.com/?q=Zocalo+Plaza+de+la+Constitucion+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Zocalo (Plaza de la Constitución)</a>
+                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>9:00am-11:00am</p>
                 </div>
                 <div>
-                  <h4 className="font-primary font-medium text-foreground">Street Food Tour (Optional)</h4>
-                  <p className="text-sm font-primary font-light text-foreground/80">Mercado San Juan</p>
-                  <p className="text-sm font-primary font-light text-foreground/70">1:00pm-4:00pm</p>
+                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Street Food Tour (Optional)</h4>
+                  <a href="https://maps.google.com/?q=Mercado+San+Juan+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Mercado San Juan</a>
+                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>1:00pm-4:00pm</p>
                 </div>
               </div>
             </div>
 
             {/* Friday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
                 FRIDAY, SEPTEMBER 25
               </h3>
               <div className="space-y-3">
                 <div>
-                  <h4 className="font-primary font-medium text-foreground">Anthropology Museum Tour (Optional)</h4>
-                  <p className="text-sm font-primary font-light text-foreground/80">Museo Nacional de Antropología</p>
-                  <p className="text-sm font-primary font-light text-foreground/70">11:00am-3:00pm</p>
+                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Anthropology Museum Tour (Optional)</h4>
+                  <a href="https://maps.google.com/?q=Museo+Nacional+de+Antropologia+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Museo Nacional de Antropología</a>
+                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>11:00am-3:00pm</p>
                 </div>
                 <div>
-                  <h4 className="font-primary font-medium text-foreground">Rehearsal Dinner</h4>
-                  <p className="text-sm font-primary font-light text-foreground/80">Cancion Ciebeles</p>
-                  <p className="text-sm font-primary font-light text-foreground/70">7:00pm-10:00pm</p>
+                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Rehearsal Dinner</h4>
+                  <a href="https://maps.google.com/?q=Cancion+Cibeles+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Cancion Cibeles</a>
+                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>7:00pm-10:00pm</p>
                 </div>
               </div>
             </div>
 
             {/* Saturday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
                 SATURDAY, SEPTEMBER 26
               </h3>
               <div>
-                <h4 className="font-primary font-medium text-foreground">Wedding Ceremony & Reception</h4>
-                <p className="text-sm font-primary font-light text-foreground/80">Toledo Rooftop</p>
-                <p className="text-sm font-primary font-light text-foreground/70">4:00pm-2:00am</p>
+                <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Wedding Ceremony & Reception</h4>
+                <a href="https://maps.google.com/?q=Toledo+Rooftop+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Toledo Rooftop</a>
+                <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>4:00pm-2:00am</p>
               </div>
             </div>
 
             {/* Sunday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
                 SUNDAY, SEPTEMBER 27
               </h3>
               <div>
-                <h4 className="font-primary font-medium text-foreground">Farewell Brunch</h4>
-                <p className="text-sm font-primary font-light text-foreground/80">???</p>
-                <p className="text-sm font-primary font-light text-foreground/70">11:00am-2:00pm</p>
+                <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Farewell Brunch</h4>
+                <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>???</p>
+                <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>11:00am-2:00pm</p>
               </div>
             </div>
           </div>
@@ -131,14 +131,14 @@ const Index = () => {
       {/* Travel Section */}
       <ContentSection 
         id="travel"
-        backgroundColor="hsl(var(--muted))"
+        backgroundColor="#3a3a3a"
         className="min-h-screen"
       >
         <div className="text-left space-y-6">
-          <h2 className="text-4xl font-primary font-light text-foreground">
+          <h2 className="text-4xl font-primary font-light text-white">
             Travel & Accommodations
           </h2>
-          <p className="text-lg font-primary font-light text-muted-foreground leading-relaxed">
+          <p className="text-lg font-primary font-light text-white/80 leading-relaxed">
             Information about getting here and where to stay.
           </p>
         </div>
