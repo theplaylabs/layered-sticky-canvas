@@ -13,7 +13,7 @@ const Index = () => {
         <div className="text-right space-y-6">
           <div className="space-y-2 relative">
             {/* Large green ampersand background */}
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-end">
               <span className="text-9xl font-primary font-light text-green-800/30 select-none">&</span>
             </div>
             
