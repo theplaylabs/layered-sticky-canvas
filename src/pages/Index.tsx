@@ -13,12 +13,12 @@ const Index = () => {
         <div className="text-right space-y-6">
           <div className="space-y-2 relative">
             {/* Large green ampersand background */}
-            <div className="absolute inset-0 flex items-center justify-end">
-              <span className="text-9xl font-accent font-bold text-green-800/30 select-none">&</span>
+            <div className="absolute inset-0 flex items-center justify-end" style={{ marginTop: '-60px' }}>
+              <span className="text-[12rem] font-accent font-bold text-green-800/30 select-none">&</span>
             </div>
             
             {/* Names layered on top */}
-            <div className="relative z-10">
+            <div className="relative z-10" style={{ marginRight: '40px' }}>
               <h1 className="text-8xl font-secondary font-light tracking-wider text-foreground">
                 MATT
               </h1>
