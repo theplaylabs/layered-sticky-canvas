@@ -202,7 +202,7 @@ const RSVPForm: React.FC = () => {
   return (
     <div className="space-y-8">
       <div className="space-y-4">
-        <Label htmlFor="name-search" className="text-2xl font-secondary" style={{ color: '#738a6e' }}>
+        <Label htmlFor="name-search" className="text-xl font-primary font-medium" style={{ color: '#738a6e' }}>
           What's your name?
         </Label>
         <div className="relative">
