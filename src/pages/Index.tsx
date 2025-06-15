@@ -1,27 +1,9 @@
 import Layout from '@/components/Layout';
 import ContentSection from '@/components/ContentSection';
+import RSVPForm from '@/components/RSVPForm';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Checkbox } from '@/components/ui/checkbox';
-import { useState } from 'react';
 
 const Index = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    guestCount: 1,
-    attendingRehearsalDinner: false,
-    attendingWedding: false,
-    attendingFarewellBrunch: false
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the data to a backend or Google Sheets
-    console.log('RSVP Data:', formData);
-    alert('Thank you for your RSVP! We will confirm receipt shortly.');
-  };
 
   return (
     <Layout>
@@ -600,96 +582,12 @@ const Index = () => {
             RSVP
           </h2>
           
-          <div className="space-y-6">
-            <p className="text-lg font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-              Please respond by <strong>August 15, 2026</strong>
+          <div className="max-w-2xl">
+            <p className="text-sm font-primary font-light text-muted-foreground leading-relaxed mb-8">
+              Please let us know if you'll be joining us for our special day. We can't wait to celebrate with you!
             </p>
             
-            <div className="border-l-4 p-4" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)', borderColor: '#738a6e' }}>
-              <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>
-                <strong>Important:</strong> Children are not allowed at the wedding ceremony and reception. 
-                For childcare information, please see our <a href="#faq" className="hover:underline" style={{ color: '#738a6e' }}>FAQ section</a>.
-              </p>
-            </div>
-
-            <form onSubmit={handleSubmit} className="space-y-6 max-w-md">
-              <div className="space-y-2">
-                <Label htmlFor="name" className="text-sm font-primary font-medium" style={{ color: '#3a3a3a' }}>
-                  Your Name
-                </Label>
-                <Input
-                  id="name"
-                  type="text"
-                  value={formData.name}
-                  onChange={(e) => setFormData({...formData, name: e.target.value})}
-                  required
-                  className="border-gray-300 focus:border-green-500"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <Label htmlFor="guestCount" className="text-sm font-primary font-medium" style={{ color: '#3a3a3a' }}>
-                  Number of Guests
-                </Label>
-                <Input
-                  id="guestCount"
-                  type="number"
-                  min="1"
-                  max="4"
-                  value={formData.guestCount}
-                  onChange={(e) => setFormData({...formData, guestCount: parseInt(e.target.value)})}
-                  required
-                  className="border-gray-300 focus:border-green-500"
-                />
-              </div>
-
-              <div className="space-y-4">
-                <h4 className="text-sm font-primary font-medium" style={{ color: '#3a3a3a' }}>
-                  Which events will you attend?
-                </h4>
-                <p className="text-xs font-primary font-light italic" style={{ color: '#6a6a6a' }}>
-                  Note: Optional events do not require RSVP
-                </p>
-                
-                <div className="flex items-center space-x-2">
-                  <Checkbox
-                    id="rehearsal"
-                    checked={formData.attendingRehearsalDinner}
-                    onCheckedChange={(checked) => setFormData({...formData, attendingRehearsalDinner: checked as boolean})}
-                  />
-                  <Label htmlFor="rehearsal" className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>
-                    Rehearsal Dinner (Friday, September 25)
-                  </Label>
-                </div>
-
-                <div className="flex items-center space-x-2">
-                  <Checkbox
-                    id="wedding"
-                    checked={formData.attendingWedding}
-                    onCheckedChange={(checked) => setFormData({...formData, attendingWedding: checked as boolean})}
-                  />
-                  <Label htmlFor="wedding" className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>
-                    Wedding Ceremony & Reception (Saturday, September 26)
-                  </Label>
-                </div>
-
-              </div>
-
-              <Button 
-                type="submit" 
-                className="w-full font-primary font-medium rounded-none"
-                style={{ backgroundColor: '#738a6e', color: 'white' }}
-              >
-                Submit RSVP
-              </Button>
-            </form>
-
-            <div className="mt-8 p-4 bg-gray-50 rounded-lg">
-              <p className="text-xs font-primary font-light" style={{ color: '#8a8a8a' }}>
-                <strong>Note:</strong> For pre-populated guest information or technical assistance with this form, 
-                we can connect this to a Google Sheet on the backend. Please let us know if you'd like help setting that up.
-              </p>
-            </div>
+            <RSVPForm />
           </div>
         </div>
       </ContentSection>
