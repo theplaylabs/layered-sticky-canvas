@@ -93,7 +93,7 @@ const Index = () => {
               </h3>
               <Accordion type="single" collapsible className="space-y-3">
                 <AccordionItem value="thursday-walking" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Mexico City Walking Tour (Optional)</h4>
                       <a href="https://maps.google.com/?q=Zocalo+Plaza+de+la+Constitucion+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Zocalo (Plaza de la Constitución)</a>
@@ -110,7 +110,7 @@ const Index = () => {
                 </AccordionItem>
                 
                 <AccordionItem value="thursday-food" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Street Food Tour (Optional)</h4>
                       <a href="https://maps.google.com/?q=Mercado+San+Juan+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Mercado San Juan</a>
@@ -135,7 +135,7 @@ const Index = () => {
               </h3>
               <Accordion type="single" collapsible className="space-y-3">
                 <AccordionItem value="friday-museum" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Anthropology Museum Tour (Optional)</h4>
                       <a href="https://maps.google.com/?q=Museo+Nacional+de+Antropologia+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Museo Nacional de Antropología</a>
@@ -152,7 +152,7 @@ const Index = () => {
                 </AccordionItem>
                 
                 <AccordionItem value="friday-dinner" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Rehearsal Dinner</h4>
                       <a href="https://maps.google.com/?q=Cancion+Cibeles+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Cancion Cibeles</a>
@@ -177,7 +177,7 @@ const Index = () => {
               </h3>
               <Accordion type="single" collapsible className="space-y-3">
                 <AccordionItem value="saturday-wedding" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Wedding Ceremony & Reception</h4>
                       <a href="https://maps.google.com/?q=Toledo+Rooftop+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline block" style={{ color: '#738a6e' }}>Toledo Rooftop</a>
@@ -202,9 +202,9 @@ const Index = () => {
               </h3>
               <Accordion type="single" collapsible className="space-y-3">
                 <AccordionItem value="sunday-brunch" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
-                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Farewell Brunch</h4>
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Farewell Brunch (Optional)</h4>
                       <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Location TBD</p>
                       <p className="text-sm font-primary font-medium tracking-wider mt-1" style={{ color: '#738a6e' }}>11:00AM-2:00PM</p>
                       <p className="text-sm font-primary font-light italic mt-1" style={{ color: '#6a6a6a' }}>Dress Code: Casual brunch attire</p>
@@ -244,8 +244,6 @@ const Index = () => {
                 <br /><br />
                 <strong>Via Vancouver:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Air Canada</a> - YYC to YVR to MEX (7-9 hours total)
                 <br />
-                <strong>Via Toronto:</strong> <a href="https://www.aircanada.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Air Canada</a> - YYC to YYZ to MEX (8-10 hours total)
-                <br />
                 <strong>Via Vancouver:</strong> <a href="https://www.westjet.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>WestJet</a> - YYC to YVR to MEX (7-9 hours total)
                 <br />
                 <strong>Via Phoenix:</strong> <a href="https://www.aa.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>American Airlines</a> - YYC to PHX to MEX (7-9 hours total)
@@ -263,7 +261,7 @@ const Index = () => {
               </h3>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 <strong>Uber (Recommended):</strong> The most convenient and safe option. Download the Uber app before arrival. 
-                Costs approximately $8-15 USD to Roma Norte area. Pick-up area is on the Departures level (3rd floor). 
+                Costs approximately $10-20 CAD to Roma Norte area. Pick-up area is on the Departures level (3rd floor). 
                 Always verify the license plate matches your app before getting in.
                 <br /><br />
                 <strong>How to get Uber from MEX Airport:</strong>
@@ -282,9 +280,9 @@ const Index = () => {
               </h3>
               <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                 <strong>Uber (Recommended):</strong> The most reliable and safe option for tourists. Always verify the license plate and driver details before entering. 
-                Most rides within the city cost $3-8 USD. UberX is the most common option.
+                Most rides within the city cost $4-10 CAD. UberX is the most common option.
                 <br /><br />
-                <strong>Metro:</strong> Extensive and inexpensive at about $0.25 USD, but can be very crowded. Avoid during rush hours (7-9 AM, 6-8 PM). 
+                <strong>Metro:</strong> Extensive and inexpensive at about $0.35 CAD, but can be very crowded. Avoid during rush hours (7-9 AM, 6-8 PM). 
                 Generally safe but not ideal for tourists with luggage or valuables.
                 <br /><br />
                 <strong>Walking:</strong> Roma Norte and Centro Histórico are very walkable neighborhoods. Stay aware of your surroundings, 
@@ -300,11 +298,11 @@ const Index = () => {
               
               <Accordion type="single" collapsible className="space-y-3">
                 <AccordionItem value="hotel-luxury" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>The Brick Hotel</h4>
                       <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Luxury • Roma Norte</p>
-                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$250-400 USD/night</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$335-535 CAD/night</p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
@@ -328,7 +326,7 @@ const Index = () => {
                       </div>
                       <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                         A sophisticated luxury hotel in the heart of Roma Norte, walking distance to trendy restaurants and cafes. 
-                        Features beautiful design, rooftop terrace, and excellent service. Perfect location for our wedding festivities.
+                        Features beautiful design, rooftop terrace, and excellent service.
                       </p>
                       <a href="https://www.thebrickhotel.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: '#738a6e' }}>
                         Visit The Brick Hotel website
@@ -338,11 +336,11 @@ const Index = () => {
                 </AccordionItem>
 
                 <AccordionItem value="hotel-boutique" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Casa Goliana</h4>
                       <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Boutique • Roma Norte</p>
-                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$120-200 USD/night</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$160-270 CAD/night</p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
@@ -376,11 +374,11 @@ const Index = () => {
                 </AccordionItem>
 
                 <AccordionItem value="hotel-budget" className="border-none">
-                  <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                  <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
                       <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Hotel Villa Condesa</h4>
                       <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Mid-Range • Condesa (adjacent to Roma Norte)</p>
-                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$80-140 USD/night</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$105-190 CAD/night</p>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="pt-2 pb-4 px-4">
@@ -547,7 +545,7 @@ const Index = () => {
               Please respond by <strong>August 15, 2026</strong>
             </p>
             
-            <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
+            <div className="border-l-4 p-4" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)', borderColor: '#738a6e' }}>
               <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>
                 <strong>Important:</strong> Children are not allowed at the wedding ceremony and reception. 
                 For childcare information, please see our <a href="#faq" className="hover:underline" style={{ color: '#738a6e' }}>FAQ section</a>.
@@ -589,6 +587,9 @@ const Index = () => {
                 <h4 className="text-sm font-primary font-medium" style={{ color: '#3a3a3a' }}>
                   Which events will you attend?
                 </h4>
+                <p className="text-xs font-primary font-light italic" style={{ color: '#6a6a6a' }}>
+                  Note: Optional events do not require RSVP
+                </p>
                 
                 <div className="flex items-center space-x-2">
                   <Checkbox
@@ -646,21 +647,22 @@ const Index = () => {
           
           <Accordion type="single" collapsible className="space-y-3">
             <AccordionItem value="faq-children" className="border-none">
-              <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+              <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                 <div className="text-left w-full">
                   <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Childcare for the Wedding</h4>
                 </div>
               </AccordionTrigger>
               <AccordionContent className="pt-2 pb-4 px-4">
                 <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                  While children are not permitted at the wedding ceremony and reception, we understand that some guests may be traveling with little ones. 
-                  We can provide recommendations for trusted babysitting services in Mexico City. Please contact us directly for referrals and assistance with arrangements.
+                  Children are welcome at the rehearsal dinner and farewell brunch. However, the wedding venue is an over-18 venue, 
+                  so children cannot attend the ceremony and reception. We will arrange for professional childcare nearby during the wedding. 
+                  Please contact us for more details about childcare arrangements.
                 </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="faq-attire" className="border-none">
-              <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+              <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                 <div className="text-left w-full">
                   <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>What should I wear?</h4>
                 </div>
@@ -674,7 +676,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="faq-currency" className="border-none">
-              <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+              <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                 <div className="text-left w-full">
                   <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>What currency should I bring?</h4>
                 </div>
@@ -688,15 +690,15 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="faq-gifts" className="border-none">
-              <AccordionTrigger className="hover:no-underline py-3 px-4 rounded-lg bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+              <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                 <div className="text-left w-full">
                   <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Gift Registry</h4>
                 </div>
               </AccordionTrigger>
               <AccordionContent className="pt-2 pb-4 px-4">
                 <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                  Your presence at our destination wedding is the greatest gift! If you wish to give something, 
-                  we have registries at [Store Names] or would appreciate contributions toward our honeymoon fund.
+                  Your presence at our destination wedding is the greatest gift! We are thrilled to celebrate with you 
+                  and that's all we could ask for.
                 </p>
               </AccordionContent>
             </AccordionItem>
