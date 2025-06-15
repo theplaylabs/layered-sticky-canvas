@@ -14,15 +14,15 @@ const Index = () => {
           <div className="space-y-2 relative">
             {/* Large green ampersand background */}
             <div className="absolute inset-0 flex items-center justify-end">
-              <span className="text-9xl font-primary font-light text-green-800/30 select-none">&</span>
+              <span className="text-9xl font-accent font-bold text-green-800/30 select-none">&</span>
             </div>
             
             {/* Names layered on top */}
             <div className="relative z-10">
-              <h1 className="text-8xl font-primary font-light tracking-wider text-foreground">
+              <h1 className="text-8xl font-secondary font-light tracking-wider text-foreground">
                 MATT
               </h1>
-              <h2 className="text-8xl font-primary font-light tracking-wider text-foreground">
+              <h2 className="text-8xl font-secondary font-light tracking-wider text-foreground">
                 CARLA
               </h2>
             </div>
