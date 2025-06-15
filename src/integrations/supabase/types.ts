@@ -9,7 +9,113 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
-      [_ in never]: never
+      invitees: {
+        Row: {
+          created_at: string
+          email: string | null
+          guest_count_allowed: number
+          has_children: boolean
+          id: string
+          invited_to_rehearsal: boolean
+          known_number_of_children: number
+          name: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          email?: string | null
+          guest_count_allowed?: number
+          has_children?: boolean
+          id?: string
+          invited_to_rehearsal?: boolean
+          known_number_of_children?: number
+          name: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          email?: string | null
+          guest_count_allowed?: number
+          has_children?: boolean
+          id?: string
+          invited_to_rehearsal?: boolean
+          known_number_of_children?: number
+          name?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      rsvp_responses: {
+        Row: {
+          attendees_rehearsal_dinner: number | null
+          attendees_wedding: number | null
+          children_attendees_rehearsal_dinner: number | null
+          children_for_childcare_wedding: number | null
+          created_at: string
+          id: string
+          invitee_id: string
+          rsvp_date_stamp: string
+          rsvp_rehearsal_dinner: boolean | null
+          rsvp_wedding: boolean | null
+          updated_at: string
+        }
+        Insert: {
+          attendees_rehearsal_dinner?: number | null
+          attendees_wedding?: number | null
+          children_attendees_rehearsal_dinner?: number | null
+          children_for_childcare_wedding?: number | null
+          created_at?: string
+          id?: string
+          invitee_id: string
+          rsvp_date_stamp?: string
+          rsvp_rehearsal_dinner?: boolean | null
+          rsvp_wedding?: boolean | null
+          updated_at?: string
+        }
+        Update: {
+          attendees_rehearsal_dinner?: number | null
+          attendees_wedding?: number | null
+          children_attendees_rehearsal_dinner?: number | null
+          children_for_childcare_wedding?: number | null
+          created_at?: string
+          id?: string
+          invitee_id?: string
+          rsvp_date_stamp?: string
+          rsvp_rehearsal_dinner?: boolean | null
+          rsvp_wedding?: boolean | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "rsvp_responses_invitee_id_fkey"
+            columns: ["invitee_id"]
+            isOneToOne: false
+            referencedRelation: "invitees"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      submission_logs: {
+        Row: {
+          id: string
+          invitee_name: string
+          submission_data: Json
+          timestamp: string
+        }
+        Insert: {
+          id?: string
+          invitee_name: string
+          submission_data: Json
+          timestamp?: string
+        }
+        Update: {
+          id?: string
+          invitee_name?: string
+          submission_data?: Json
+          timestamp?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
