@@ -1,5 +1,6 @@
 import Layout from '@/components/Layout';
 import ContentSection from '@/components/ContentSection';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const Index = () => {
   return (
@@ -65,64 +66,124 @@ const Index = () => {
           <div className="space-y-8">
             {/* Thursday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#738a6e' }}>
                 THURSDAY, SEPTEMBER 24
               </h3>
-              <div className="space-y-3">
-                <div>
-                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Mexico City Walking Tour (Optional)</h4>
-                  <a href="https://maps.google.com/?q=Zocalo+Plaza+de+la+Constitucion+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Zocalo (Plaza de la Constitución)</a>
-                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>9:00am-11:00am</p>
-                </div>
-                <div>
-                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Street Food Tour (Optional)</h4>
-                  <a href="https://maps.google.com/?q=Mercado+San+Juan+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Mercado San Juan</a>
-                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>1:00pm-4:00pm</p>
-                </div>
-              </div>
+              <Accordion type="single" collapsible className="space-y-3">
+                <AccordionItem value="thursday-walking" className="border-none">
+                  <AccordionTrigger className="hover:no-underline py-3 px-0">
+                    <div className="text-left">
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Mexico City Walking Tour (Optional)</h4>
+                      <a href="https://maps.google.com/?q=Zocalo+Plaza+de+la+Constitucion+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Zocalo (Plaza de la Constitución)</a>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>9:00am-11:00am</p>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="pt-2 pb-4">
+                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+                
+                <AccordionItem value="thursday-food" className="border-none">
+                  <AccordionTrigger className="hover:no-underline py-3 px-0">
+                    <div className="text-left">
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Street Food Tour (Optional)</h4>
+                      <a href="https://maps.google.com/?q=Mercado+San+Juan+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Mercado San Juan</a>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>1:00pm-4:00pm</p>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="pt-2 pb-4">
+                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
 
             {/* Friday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#738a6e' }}>
                 FRIDAY, SEPTEMBER 25
               </h3>
-              <div className="space-y-3">
-                <div>
-                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Anthropology Museum Tour (Optional)</h4>
-                  <a href="https://maps.google.com/?q=Museo+Nacional+de+Antropologia+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Museo Nacional de Antropología</a>
-                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>11:00am-3:00pm</p>
-                </div>
-                <div>
-                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Rehearsal Dinner</h4>
-                  <a href="https://maps.google.com/?q=Cancion+Cibeles+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Cancion Cibeles</a>
-                  <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>7:00pm-10:00pm</p>
-                </div>
-              </div>
+              <Accordion type="single" collapsible className="space-y-3">
+                <AccordionItem value="friday-museum" className="border-none">
+                  <AccordionTrigger className="hover:no-underline py-3 px-0">
+                    <div className="text-left">
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Anthropology Museum Tour (Optional)</h4>
+                      <a href="https://maps.google.com/?q=Museo+Nacional+de+Antropologia+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Museo Nacional de Antropología</a>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>11:00am-3:00pm</p>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="pt-2 pb-4">
+                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+                
+                <AccordionItem value="friday-dinner" className="border-none">
+                  <AccordionTrigger className="hover:no-underline py-3 px-0">
+                    <div className="text-left">
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Rehearsal Dinner</h4>
+                      <a href="https://maps.google.com/?q=Cancion+Cibeles+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Cancion Cibeles</a>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>7:00pm-10:00pm</p>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="pt-2 pb-4">
+                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
 
             {/* Saturday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#738a6e' }}>
                 SATURDAY, SEPTEMBER 26
               </h3>
-              <div>
-                <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Wedding Ceremony & Reception</h4>
-                <a href="https://maps.google.com/?q=Toledo+Rooftop+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Toledo Rooftop</a>
-                <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>4:00pm-2:00am</p>
-              </div>
+              <Accordion type="single" collapsible className="space-y-3">
+                <AccordionItem value="saturday-wedding" className="border-none">
+                  <AccordionTrigger className="hover:no-underline py-3 px-0">
+                    <div className="text-left">
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Wedding Ceremony & Reception</h4>
+                      <a href="https://maps.google.com/?q=Toledo+Rooftop+Mexico+City" target="_blank" rel="noopener noreferrer" className="text-sm font-primary font-light hover:underline" style={{ color: '#5a5a5a' }}>Toledo Rooftop</a>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>4:00pm-2:00am</p>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="pt-2 pb-4">
+                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
 
             {/* Sunday */}
             <div className="space-y-4">
-              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#3a3a3a' }}>
+              <h3 className="text-xl font-primary font-medium tracking-wider" style={{ color: '#738a6e' }}>
                 SUNDAY, SEPTEMBER 27
               </h3>
-              <div>
-                <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Farewell Brunch</h4>
-                <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>???</p>
-                <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>11:00am-2:00pm</p>
-              </div>
+              <Accordion type="single" collapsible className="space-y-3">
+                <AccordionItem value="sunday-brunch" className="border-none">
+                  <AccordionTrigger className="hover:no-underline py-3 px-0">
+                    <div className="text-left">
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Farewell Brunch</h4>
+                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>???</p>
+                      <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>11:00am-2:00pm</p>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent className="pt-2 pb-4">
+                    <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
           </div>
         </div>
