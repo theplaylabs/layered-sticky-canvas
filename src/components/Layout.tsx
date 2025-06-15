@@ -15,7 +15,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             Home
           </a>
           <a href="#schedule" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
-            Schedule
+            Itinerary
           </a>
           <a href="#travel" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             Travel & Accommodations
@@ -25,6 +25,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </a>
           <a href="#rsvp" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
             RSVP
+          </a>
+          <a href="#faq" className="text-sm font-primary font-light tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+            FAQ
           </a>
         </div>
       </nav>
