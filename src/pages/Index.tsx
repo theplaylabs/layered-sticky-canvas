@@ -25,68 +25,14 @@ const Index = () => {
 
   return (
     <Layout>
-      {/* Home Section */}
+      {/* Desktop Home Section */}
       <ContentSection 
         id="home"
         backgroundImage="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=1080&fit=crop"
-        className="min-h-screen"
+        className="min-h-screen hidden md:block"
       >
-        {/* Mobile Layout */}
-        <div className="md:hidden">
-          {/* Content without background image */}
-          <div className="text-center space-y-6 bg-background relative z-10 pb-8">
-            <div className="space-y-2 relative">
-              {/* Large green ampersand background for mobile */}
-              <div className="absolute inset-0 flex items-center justify-center -mt-16">
-                <span className="text-[8rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
-              </div>
-              
-              {/* Names layered on top for mobile */}
-              <div className="relative z-10">
-                <h1 className="text-7xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
-                  MATT
-                </h1>
-                <h2 className="text-7xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
-                  CARLA
-                </h2>
-              </div>
-              
-              <div className="text-center relative z-10">
-                <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
-                  Join us in celebration
-                </p>
-              </div>
-            </div>
-            
-            <div className="max-w-md mx-auto space-y-4 pt-8">
-              <h3 className="text-lg font-primary font-medium" style={{ color: '#738a6e' }}>
-                Save the Date - September 26, 2026
-              </h3>
-              <p className="text-sm font-primary font-light text-muted-foreground leading-relaxed">
-                We're excited to share our special day with you. Please join us for our 
-                wedding celebration and all the festivities that surround it.
-              </p>
-            </div>
-          </div>
-          
-          {/* Background image section for mobile */}
-          <div 
-            className="w-full h-96 bg-cover bg-center bg-no-repeat"
-            style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=1080&fit=crop)`
-            }}
-          >
-            <div className="w-full h-full bg-background/20 backdrop-blur-[0.5px] flex items-end justify-center pb-8">
-              {/* Scroll indicator */}
-              <div className="w-8 h-8 border border-white rounded-full flex items-center justify-center animate-pulse">
-                <div className="w-1 h-3 bg-white"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Desktop Layout - Original Design */}
-        <div className="hidden md:block text-right space-y-6">
+        <div className="text-right space-y-6">
           <div className="space-y-2 relative">
             {/* Large green ampersand background */}
             <div className="absolute inset-0 flex items-center justify-end" style={{ marginTop: '-60px' }}>
@@ -124,6 +70,64 @@ const Index = () => {
           <div className="pt-16 flex justify-end">
             <div className="w-8 h-8 border border-muted-foreground rounded-full flex items-center justify-center animate-pulse">
               <div className="w-1 h-3 bg-muted-foreground"></div>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
+      
+      {/* Mobile Home Section without background image */}
+      <ContentSection 
+        id="home-mobile"
+        backgroundColor="hsl(var(--background))"
+        className="min-h-screen block md:hidden"
+      >
+        {/* Content without background image */}
+        <div className="text-center space-y-6 bg-background relative z-10 pb-8">
+          <div className="space-y-2 relative">
+            {/* Large green ampersand background for mobile */}
+            <div className="absolute inset-0 flex items-center justify-center -mt-16">
+              <span className="text-[8rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
+            </div>
+            
+            {/* Names layered on top for mobile */}
+            <div className="relative z-10">
+              <h1 className="text-7xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+                MATT
+              </h1>
+              <h2 className="text-7xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+                CARLA
+              </h2>
+            </div>
+            
+            <div className="text-center relative z-10">
+              <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
+                Join us in celebration
+              </p>
+            </div>
+          </div>
+          
+          <div className="max-w-md mx-auto space-y-4 pt-8">
+            <h3 className="text-lg font-primary font-medium" style={{ color: '#738a6e' }}>
+              Save the Date - September 26, 2026
+            </h3>
+            <p className="text-sm font-primary font-light text-muted-foreground leading-relaxed">
+              We're excited to share our special day with you. Please join us for our 
+              wedding celebration and all the festivities that surround it.
+            </p>
+          </div>
+        </div>
+        
+        {/* Background image section for mobile */}
+        <div 
+          className="w-full h-96 bg-cover bg-center bg-no-repeat"
+          style={{ 
+            backgroundImage: `url(https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=1080&fit=crop)`
+          }}
+        >
+          <div className="w-full h-full bg-background/20 backdrop-blur-[0.5px] flex items-end justify-center pb-8">
+            {/* Scroll indicator */}
+            <div className="w-8 h-8 border border-white rounded-full flex items-center justify-center animate-pulse">
+              <div className="w-1 h-3 bg-white"></div>
             </div>
           </div>
         </div>
