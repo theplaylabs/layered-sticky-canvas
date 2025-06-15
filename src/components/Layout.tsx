@@ -8,7 +8,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen w-full relative">
       {/* Left Sticky Navigation */}
-      <nav className="fixed left-0 top-0 h-full w-48 z-50 flex flex-col justify-center px-8">
+      <nav className="fixed left-0 top-0 h-full w-48 z-50 flex flex-col justify-start pt-16 px-8">
         <div className="flex flex-col space-y-8">
           {/* Navigation Items */}
           <a href="#home" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
