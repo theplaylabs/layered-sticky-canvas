@@ -5,8 +5,11 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Only use base path in production for GitHub Pages
-  base: mode === 'production' ? "/layered-sticky-canvas/" : "/",
+  // REMOVE the 'base' property here
+  server: {
+    host: "::",
+    port: 8080,
+  },
   plugins: [
     react(),
     mode === 'development' &&
