@@ -33,7 +33,7 @@ const ContentSection: React.FC<ContentSectionProps> = ({
     <section 
       id={id}
       className={cn(
-        "relative w-full flex items-center justify-center",
+        "relative w-full",
         className
       )}
       style={{ 
@@ -47,7 +47,15 @@ const ContentSection: React.FC<ContentSectionProps> = ({
       )}
       
       {/* Content Container */}
-      <div className="relative z-10 py-16" style={{ marginLeft: '192px', marginRight: '90px', paddingLeft: '16px', paddingRight: '16px' }}>
+      <div 
+        className="relative z-10 py-16"
+        style={{ 
+          marginLeft: '222px',  // nav width (192px) + gap (30px)
+          marginRight: '132px', // green bar area (72px) + gap (30px) + extra margin (30px)
+          paddingLeft: '16px',
+          paddingRight: '16px'
+        }}
+      >
         {children}
       </div>
     </section>
