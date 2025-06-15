@@ -618,7 +618,7 @@ const Index = () => {
 
               <Button 
                 type="submit" 
-                className="w-full font-primary font-medium"
+                className="w-full font-primary font-medium rounded-none"
                 style={{ backgroundColor: '#738a6e', color: 'white' }}
               >
                 Submit RSVP
