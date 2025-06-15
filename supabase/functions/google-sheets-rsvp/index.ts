@@ -27,12 +27,12 @@ serve(async (req) => {
       switch (action) {
         case 'search_names': {
           const query = url.searchParams.get('q') || '';
-          return handleSearchNames(query);
+          return await handleSearchNames(query);
         }
         
         case 'get_invitee': {
           const name = url.searchParams.get('name') || '';
-          return handleGetInvitee(name);
+          return await handleGetInvitee(name);
         }
         
         default:
@@ -46,7 +46,7 @@ serve(async (req) => {
     // Handle POST requests for RSVP submission
     if (req.method === 'POST') {
       const rsvpData: RSVPSubmission = await req.json();
-      return handleRSVPSubmission(rsvpData);
+      return await handleRSVPSubmission(rsvpData);
     }
 
     return createCorsResponse(
