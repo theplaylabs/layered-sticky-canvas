@@ -338,8 +338,8 @@ const Index = () => {
                 <AccordionItem value="hotel-boutique" className="border-none">
                   <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
                     <div className="text-left w-full">
-                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Casa Goliana</h4>
-                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Boutique • Roma Norte</p>
+                      <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Hotel Carlota</h4>
+                      <p className="text-sm font-primary font-light" style={{ color: '#5a5a5a' }}>Boutique • Juárez</p>
                       <p className="text-sm font-primary font-light" style={{ color: '#6a6a6a' }}>$160-270 CAD/night</p>
                     </div>
                   </AccordionTrigger>
@@ -348,26 +348,26 @@ const Index = () => {
                       <div className="grid grid-cols-3 gap-3">
                         <img 
                           src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=200&h=150&fit=crop" 
-                          alt="Casa Goliana courtyard" 
+                          alt="Hotel Carlota courtyard" 
                           className="w-full h-24 object-cover"
                         />
                         <img 
                           src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=200&h=150&fit=crop" 
-                          alt="Casa Goliana boutique room" 
+                          alt="Hotel Carlota boutique room" 
                           className="w-full h-24 object-cover"
                         />
                         <img 
                           src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=200&h=150&fit=crop" 
-                          alt="Casa Goliana colonial architecture" 
+                          alt="Hotel Carlota architecture"
                           className="w-full h-24 object-cover"
                         />
                       </div>
                       <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
-                        A charming boutique hotel in a beautifully restored colonial mansion in Roma Norte. 
-                        Features unique rooms, courtyard garden, and personalized service. Walking distance to local attractions and nightlife.
+                        A stylish boutique hotel in the vibrant Juárez neighborhood. 
+                        Features contemporary design, artistic atmosphere, and excellent service. Close to Roma Norte and easily accessible to wedding venues.
                       </p>
-                      <a href="https://www.casagoliana.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: '#738a6e' }}>
-                        Visit Casa Goliana website
+                      <a href="https://www.hotelcarlota.mx" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: '#738a6e' }}>
+                        Visit Hotel Carlota website
                       </a>
                     </div>
                   </AccordionContent>
@@ -454,6 +454,7 @@ const Index = () => {
                 Mexico City offers incredible culinary experiences from street food to Michelin-starred restaurants.
                 <br /><br />
                 <strong>Fine Dining:</strong> <a href="https://www.pujol.com.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Pujol</a> (Michelin starred), <a href="https://www.quintonil.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Quintonil</a>, <a href="https://www.sud777.com.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Sud777</a>
+                <br /><em className="text-xs" style={{ color: '#8a8a8a' }}>Note: Fine dining restaurants often require reservations well in advance.</em>
                 <br /><br />
                 <strong>Casual & Local:</strong> <a href="https://contramar.com.mx" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Contramar</a> (seafood), <a href="https://www.rosettarestaurante.com" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#738a6e' }}>Rosetta</a> (Italian-Mexican), El Cardenal (traditional Mexican breakfast)
                 <br /><br />
@@ -685,6 +686,21 @@ const Index = () => {
                 <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
                   Mexican Pesos (MXN) are the local currency. Many places accept USD, but you'll get better rates paying in pesos. 
                   ATMs are widely available, and credit cards are accepted at most restaurants and hotels. We recommend bringing some cash for tips and small vendors.
+                </p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="faq-language" className="border-none">
+              <AccordionTrigger className="hover:no-underline py-3 px-4 bg-opacity-30" style={{ backgroundColor: 'rgba(115, 138, 110, 0.1)' }}>
+                <div className="text-left w-full">
+                  <h4 className="font-primary font-medium" style={{ color: '#3a3a3a' }}>Do I need to speak Spanish?</h4>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="pt-2 pb-4 px-4">
+                <p className="text-sm font-primary font-light leading-relaxed" style={{ color: '#5a5a5a' }}>
+                  In hotels and tourist locations, you'll typically find English-speaking staff. However, at markets, local shops, 
+                  and other everyday establishments, Spanish is the primary language. We recommend downloading a translation app 
+                  like Google Translate to help communicate when needed.
                 </p>
               </AccordionContent>
             </AccordionItem>
