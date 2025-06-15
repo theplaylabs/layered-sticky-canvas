@@ -8,21 +8,24 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen w-full relative">
       {/* Left Sticky Navigation */}
-      <nav className="fixed left-0 top-0 h-full w-16 z-50 flex flex-col items-center py-8">
-        <div className="flex flex-col space-y-6">
-          {/* Logo/Brand */}
-          <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
-            <div className="w-4 h-4 rounded-full bg-primary"></div>
-          </div>
-          
+      <nav className="fixed left-0 top-0 h-full w-48 z-50 flex flex-col justify-center px-8">
+        <div className="flex flex-col space-y-8">
           {/* Navigation Items */}
-          <div className="flex flex-col space-y-4">
-            <a href="#home" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
-            <a href="#schedule" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
-            <a href="#travel" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
-            <a href="#things-to-do" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
-            <a href="#rsvp" className="w-2 h-2 rounded-full bg-muted-foreground/60 hover:bg-primary cursor-pointer transition-colors"></a>
-          </div>
+          <a href="#home" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+            Home
+          </a>
+          <a href="#schedule" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+            Schedule
+          </a>
+          <a href="#travel" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+            Travel & Accommodations
+          </a>
+          <a href="#things-to-do" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+            Things to Do
+          </a>
+          <a href="#rsvp" className="text-sm tracking-[0.2em] text-muted-foreground hover:text-primary cursor-pointer transition-colors uppercase">
+            RSVP
+          </a>
         </div>
       </nav>
 
