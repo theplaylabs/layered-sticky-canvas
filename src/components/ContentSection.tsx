@@ -47,7 +47,7 @@ const ContentSection: React.FC<ContentSectionProps> = ({
       )}
       
       {/* Content Container */}
-      <div className="relative z-10 max-w-2xl px-4 py-16 ml-48" style={{ marginRight: '90px' }}>
+      <div className="relative z-10 max-w-2xl px-4 py-16 ml-48 mr-[100px]">
         {children}
       </div>
     </section>
