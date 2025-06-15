@@ -41,16 +41,16 @@ const Index = () => {
             
             {/* Names layered on top for mobile */}
             <div className="relative z-10">
-              <h1 className="text-5xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+              <h1 className="text-6xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 MATT
               </h1>
-              <h2 className="text-5xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+              <h2 className="text-6xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 CARLA
               </h2>
             </div>
             
             <div className="text-center relative z-10">
-              <p className="text-xs font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
+              <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
                 Join us in celebration
               </p>
             </div>
