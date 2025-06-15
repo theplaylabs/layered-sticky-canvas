@@ -10,7 +10,7 @@ const Index = () => {
         backgroundColor="hsl(var(--background))"
         className="min-h-screen"
       >
-        <div className="text-center space-y-6">
+        <div className="text-right space-y-6">
           <div className="space-y-2">
             <h1 className="text-6xl font-light tracking-wide text-foreground">
               WEDDING
@@ -23,7 +23,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="max-w-md mx-auto space-y-4 pt-8">
+          <div className="max-w-md ml-auto space-y-4 pt-8">
             <h3 className="text-lg font-medium text-foreground">
               Save the Date
             </h3>
@@ -34,8 +34,8 @@ const Index = () => {
           </div>
           
           {/* Scroll indicator */}
-          <div className="pt-16">
-            <div className="w-8 h-8 mx-auto border border-muted-foreground rounded-full flex items-center justify-center animate-pulse">
+          <div className="pt-16 flex justify-end">
+            <div className="w-8 h-8 border border-muted-foreground rounded-full flex items-center justify-center animate-pulse">
               <div className="w-1 h-3 bg-muted-foreground"></div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Index = () => {
         backgroundImage="/lovable-uploads/40dc9ee5-4626-481d-9a03-6d83ea3399f7.png"
         className="min-h-screen"
       >
-        <div className="text-center space-y-6">
+        <div className="text-left space-y-6">
           <h2 className="text-4xl font-light text-foreground">
             Schedule
           </h2>
@@ -64,7 +64,7 @@ const Index = () => {
         backgroundColor="hsl(var(--muted))"
         className="min-h-screen"
       >
-        <div className="text-center space-y-6">
+        <div className="text-left space-y-6">
           <h2 className="text-4xl font-light text-foreground">
             Travel & Accommodations
           </h2>
@@ -80,7 +80,7 @@ const Index = () => {
         backgroundColor="hsl(var(--background))"
         className="min-h-screen"
       >
-        <div className="text-center space-y-6">
+        <div className="text-left space-y-6">
           <h2 className="text-4xl font-light text-foreground">
             Things to Do
           </h2>
@@ -96,7 +96,7 @@ const Index = () => {
         backgroundColor="hsl(var(--muted))"
         className="min-h-screen"
       >
-        <div className="text-center space-y-6">
+        <div className="text-left space-y-6">
           <h2 className="text-4xl font-light text-foreground">
             RSVP
           </h2>
