@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://theplaylabs.github.io/layered-sticky-canvas/",  <--- ADD/UPDATE THIS LINE
+  "homepage": "https://theplaylabs.github.io/layered-sticky-canvas/",  
 
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",   
+    "deploy": "gh-pages -d dist" 
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
