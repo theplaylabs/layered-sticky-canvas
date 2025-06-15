@@ -28,7 +28,7 @@ const Index = () => {
       {/* Home Section */}
       <ContentSection 
         id="home"
-        backgroundColor="hsl(var(--background))"
+        backgroundImage="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=1080&fit=crop"
         className="min-h-screen"
       >
         {/* Mobile Layout */}
