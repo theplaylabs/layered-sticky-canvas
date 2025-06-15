@@ -202,7 +202,7 @@ const RSVPForm: React.FC = () => {
   return (
     <div className="space-y-8">
       <div className="space-y-4">
-        <Label htmlFor="name-search" className="text-lg font-medium">
+        <Label htmlFor="name-search" className="text-2xl font-secondary" style={{ color: '#738a6e' }}>
           What's your name?
         </Label>
         <div className="relative">
@@ -212,7 +212,10 @@ const RSVPForm: React.FC = () => {
             value={nameQuery}
             onChange={(e) => setNameQuery(e.target.value)}
             placeholder="Start typing your name..."
-            className="w-full"
+            className="w-full rounded-none focus-visible:ring-2"
+            style={{ 
+              '--tw-ring-color': '#738a6e'
+            } as React.CSSProperties}
           />
           {suggestions.length > 0 && (
             <div className="absolute top-full left-0 right-0 bg-background border border-border rounded-md shadow-lg z-10 max-h-60 overflow-y-auto">
