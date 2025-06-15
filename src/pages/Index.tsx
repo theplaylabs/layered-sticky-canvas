@@ -57,13 +57,74 @@ const Index = () => {
         backgroundImage="/lovable-uploads/40dc9ee5-4626-481d-9a03-6d83ea3399f7.png"
         className="min-h-screen"
       >
-        <div className="text-left space-y-6">
+        <div className="text-left space-y-8">
           <h2 className="text-4xl font-primary font-light text-foreground">
-            Schedule
+            Itinerary
           </h2>
-          <p className="text-lg font-primary font-light text-foreground/80 leading-relaxed">
-            Timeline of events for our special day.
-          </p>
+          
+          <div className="space-y-8">
+            {/* Thursday */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+                THURSDAY, SEPTEMBER 24
+              </h3>
+              <div className="space-y-3">
+                <div>
+                  <h4 className="font-primary font-medium text-foreground">Mexico City Walking Tour (Optional)</h4>
+                  <p className="text-sm font-primary font-light text-foreground/80">Zocalo (Plaza de la Constitución)</p>
+                  <p className="text-sm font-primary font-light text-foreground/70">9:00am-11:00am</p>
+                </div>
+                <div>
+                  <h4 className="font-primary font-medium text-foreground">Street Food Tour (Optional)</h4>
+                  <p className="text-sm font-primary font-light text-foreground/80">Mercado San Juan</p>
+                  <p className="text-sm font-primary font-light text-foreground/70">1:00pm-4:00pm</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Friday */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+                FRIDAY, SEPTEMBER 25
+              </h3>
+              <div className="space-y-3">
+                <div>
+                  <h4 className="font-primary font-medium text-foreground">Anthropology Museum Tour (Optional)</h4>
+                  <p className="text-sm font-primary font-light text-foreground/80">Museo Nacional de Antropología</p>
+                  <p className="text-sm font-primary font-light text-foreground/70">11:00am-3:00pm</p>
+                </div>
+                <div>
+                  <h4 className="font-primary font-medium text-foreground">Rehearsal Dinner</h4>
+                  <p className="text-sm font-primary font-light text-foreground/80">Cancion Ciebeles</p>
+                  <p className="text-sm font-primary font-light text-foreground/70">7:00pm-10:00pm</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Saturday */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+                SATURDAY, SEPTEMBER 26
+              </h3>
+              <div>
+                <h4 className="font-primary font-medium text-foreground">Wedding Ceremony & Reception</h4>
+                <p className="text-sm font-primary font-light text-foreground/80">Toledo Rooftop</p>
+                <p className="text-sm font-primary font-light text-foreground/70">4:00pm-2:00am</p>
+              </div>
+            </div>
+
+            {/* Sunday */}
+            <div className="space-y-4">
+              <h3 className="text-xl font-primary font-medium text-foreground tracking-wider">
+                SUNDAY, SEPTEMBER 27
+              </h3>
+              <div>
+                <h4 className="font-primary font-medium text-foreground">Farewell Brunch</h4>
+                <p className="text-sm font-primary font-light text-foreground/80">???</p>
+                <p className="text-sm font-primary font-light text-foreground/70">11:00am-2:00pm</p>
+              </div>
+            </div>
+          </div>
         </div>
       </ContentSection>
 
