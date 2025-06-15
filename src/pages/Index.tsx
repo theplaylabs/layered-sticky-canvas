@@ -12,10 +12,10 @@ const Index = () => {
       >
         <div className="text-right space-y-6">
           <div className="space-y-2">
-            <h1 className="text-6xl font-accent font-normal tracking-wider text-foreground">
+            <h1 className="text-6xl font-primary font-light tracking-wider text-foreground">
               WEDDING
             </h1>
-            <h2 className="text-6xl font-accent font-normal tracking-wider text-foreground">
+            <h2 className="text-6xl font-primary font-light tracking-wider text-foreground">
               CELEBRATION
             </h2>
             <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
@@ -49,10 +49,10 @@ const Index = () => {
         className="min-h-screen"
       >
         <div className="text-left space-y-6">
-          <h2 className="text-4xl font-light text-foreground">
+          <h2 className="text-4xl font-primary font-light text-foreground">
             Schedule
           </h2>
-          <p className="text-lg text-foreground/80 leading-relaxed">
+          <p className="text-lg font-primary font-light text-foreground/80 leading-relaxed">
             Timeline of events for our special day.
           </p>
         </div>
@@ -65,10 +65,10 @@ const Index = () => {
         className="min-h-screen"
       >
         <div className="text-left space-y-6">
-          <h2 className="text-4xl font-light text-foreground">
+          <h2 className="text-4xl font-primary font-light text-foreground">
             Travel & Accommodations
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg font-primary font-light text-muted-foreground leading-relaxed">
             Information about getting here and where to stay.
           </p>
         </div>
@@ -81,10 +81,10 @@ const Index = () => {
         className="min-h-screen"
       >
         <div className="text-left space-y-6">
-          <h2 className="text-4xl font-light text-foreground">
+          <h2 className="text-4xl font-primary font-light text-foreground">
             Things to Do
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg font-primary font-light text-muted-foreground leading-relaxed">
             Explore the area and make the most of your visit.
           </p>
         </div>
@@ -97,10 +97,10 @@ const Index = () => {
         className="min-h-screen"
       >
         <div className="text-left space-y-6">
-          <h2 className="text-4xl font-light text-foreground">
+          <h2 className="text-4xl font-primary font-light text-foreground">
             RSVP
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg font-primary font-light text-muted-foreground leading-relaxed">
             Please let us know if you'll be joining us.
           </p>
         </div>
