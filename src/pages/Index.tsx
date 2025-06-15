@@ -11,14 +11,23 @@ const Index = () => {
         className="min-h-screen"
       >
         <div className="text-right space-y-6">
-          <div className="space-y-2">
-            <h1 className="text-6xl font-primary font-light tracking-wider text-foreground">
-              WEDDING
-            </h1>
-            <h2 className="text-6xl font-primary font-light tracking-wider text-foreground">
-              CELEBRATION
-            </h2>
-            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4">
+          <div className="space-y-2 relative">
+            {/* Large green ampersand background */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-9xl font-primary font-light text-green-800/30 select-none">&</span>
+            </div>
+            
+            {/* Names layered on top */}
+            <div className="relative z-10">
+              <h1 className="text-6xl font-primary font-light tracking-wider text-foreground">
+                MATT
+              </h1>
+              <h2 className="text-6xl font-primary font-light tracking-wider text-foreground">
+                CARLA
+              </h2>
+            </div>
+            
+            <p className="text-sm font-primary font-light tracking-[0.3em] text-muted-foreground uppercase mt-4 relative z-10">
               Join us in celebration
             </p>
           </div>
