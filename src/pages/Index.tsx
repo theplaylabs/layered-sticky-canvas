@@ -36,15 +36,15 @@ const Index = () => {
           <div className="space-y-2 relative">
             {/* Large green ampersand background for mobile */}
             <div className="absolute inset-0 flex items-center justify-center -mt-8">
-              <span className="text-[6rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
+              <span className="text-[7rem] font-accent font-bold select-none" style={{ color: '#bfcfbb' }}>&</span>
             </div>
             
             {/* Names layered on top for mobile */}
             <div className="relative z-10">
-              <h1 className="text-6xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+              <h1 className="text-7xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 MATT
               </h1>
-              <h2 className="text-6xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
+              <h2 className="text-7xl font-secondary font-light tracking-wider text-foreground leading-[0.75]">
                 CARLA
               </h2>
             </div>
